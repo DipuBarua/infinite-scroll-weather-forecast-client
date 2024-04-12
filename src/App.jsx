@@ -2,10 +2,9 @@ import './App.css'
 
 function App() {
 
-
   return (
     <>
-      <h1>Vite + React</h1>
+      <h1 className=' text-3xl text-center font-bold text-green-500'>Infinite scroll - Weather Forecast</h1>
     </>
   )
 }
