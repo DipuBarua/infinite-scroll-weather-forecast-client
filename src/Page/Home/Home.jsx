@@ -8,7 +8,7 @@ const Home = () => {
     console.log('home city', cities);
     return (
         <div>
-           
+
             {/* scroll  */}
             <InfiniteScroll
                 dataLength={cities ? cities.length : 0}
@@ -28,6 +28,7 @@ const Home = () => {
                                 <th>Timezone</th>
                                 <th>Population</th>
                                 <th>Ascii Name</th>
+                                <th>Longitude/Latitude</th>
                             </tr>
                         </thead>
 

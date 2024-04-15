@@ -30,6 +30,7 @@ const CitiesTable = ({ index, item, refetch }) => {
             <td>{item.timezone}</td>
             <td>{item.population}</td>
             <td>{item.ascii_name}</td>
+            <td>{item?.coordinates?.lon} / {item?.coordinates?.lat}</td>
         </tr>
 
     );
